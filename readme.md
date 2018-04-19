@@ -15,10 +15,10 @@ return {
     'view_mode': 'form',
     'target': 'new',
     'context': {
-        'model': self._name, *Required*
-        'method': 'method_to_call', *Required* # Method called when the user hits the yes button
-        'record_id': self.id, *Required*
-        'message':'Replace with your custom message' *Optional* # The default is an empty string
+        'model': self._name, # Required
+        'method': 'method_to_call', # Required Method called when the user hits the yes button
+        'record_id': self.id, # Required
+        'message':'Replace with your custom message' # Optional The default is an empty string
     }
 }
 ```
@@ -27,5 +27,5 @@ return {
 ## Limitation
 When the method you want to call returns an action (eg. window action) it is not triggered.
 
-## Contribution
-Fork me on [Github]()
+[//]: # (## Contribution)
+[//]: # (Fork me on [Github]())
