@@ -1,7 +1,7 @@
 ## Odoo Confirmation Wizard
 This module allows you to add a confirmation step to you business logic.
 You can customize the message you want to display.
-You can achieve that by following these ##3 steps:
+You can achieve that by following these ## 3 ## steps:
 1. Add the odoo_confirm_wizard to your module's dependencies
 2. Return a window action from anywhere in your code.
 
