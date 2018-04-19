@@ -1,0 +1,43 @@
+<h3>Odoo Confirmation Wizard</h3>
+<p>
+    This module allows you to add a confirmation step to you business logic.
+    You can customize the message you want to display.
+    You can achieve that by following these <strong>3 steps</strong>:
+</p>
+<ol>
+    <li>
+        Add the odoo_confirm_wizard to your module's dependencies
+    </li>
+    <li>
+        Return a window action from anywhere in your code.
+
+        <p>
+        <h4>Example</h4>
+        <pre>
+            return {
+                'type': 'ir.actions.act_window',
+                'name': 'The name of the action',
+                'res_model': 'odoo.confirm.wizard',
+                'view_type': 'form',
+                'view_mode': 'form',
+                'target': 'new',
+                'context': {
+                    'model': self._name, <i>Required</i>
+                    'method': 'method_to_call', <i>Required</i> # Method called when the user hits the yes button
+                    'record_id': self.id, <i>Required</i>
+                    'message':'Replace with your custom message' <i>Optional</i> # The default is an empty string
+                    }
+            }
+        </pre>
+        </p>
+    </li>
+    <li>
+        Define the method to call in the model you have indicated
+    </li>
+</ol>
+<br/>
+<h3>Limitation</h3>
+When the method you want to call returns an action (eg. window action) it is not triggered.
+<br/>
+<h3>Contribution</h3>
+Fork me on <a href="">GitHub</a>
