@@ -30,4 +30,5 @@ When the method you want to call returns an action (eg. window action) it is not
 ## Contribution
 Fell free to enrich this module with your briliant ideas
 
+
 <!---(Fork me on [Github](https://github.com/guidev224/odoo_confirmation_wizard))--->
