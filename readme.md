@@ -27,5 +27,7 @@ return {
 ## Limitation
 When the method you want to call returns an action (eg. window action) it is not triggered.
 
-[//]: # (## Contribution)
+## Contribution
+Fell free to add your to enrich this module with your briliant ideas
+
 [//]: # (Fork me on [Github](https://github.com/guidev224/odoo_confirmation_wizard))
