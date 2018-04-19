@@ -28,4 +28,4 @@ return {
 When the method you want to call returns an action (eg. window action) it is not triggered.
 
 [//]: # (## Contribution)
-[//]: <> # (Fork me on [Github]())
+[//]: # (Fork me on [Github](https://github.com/guidev224/odoo_confirmation_wizard))
