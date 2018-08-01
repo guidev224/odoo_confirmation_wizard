@@ -65,4 +65,23 @@ msgstr "Non"
 msgid "Yes"
 msgstr "Oui"
 
+#. module: odoo_confirm_wizard
+#: code:addons/odoo_confirm_wizard/models/confirm_wizard.py:38
+#: code:addons/odoo_confirm_wizard/models/confirm_wizard.py:68
+#, python-format
+msgid "Error!"
+msgstr "Erreur!"
+
+#. module: odoo_confirm_wizard
+#: code:addons/odoo_confirm_wizard/models/confirm_wizard.py:38
+#, python-format
+msgid "The args\' value in the context must be a dictionary!"
+msgstr "La valeur de args du contexte doit être un dictionnaire!"
+
+#. module: odoo_confirm_wizard
+#: code:addons/odoo_confirm_wizard/models/confirm_wizard.py:68
+#, python-format
+msgid "The context argument must be a dictionary!"
+msgstr "Le paramètre 'context' doit être un dictionnaire!"
+
 

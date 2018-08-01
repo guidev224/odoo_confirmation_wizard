@@ -19,6 +19,7 @@ return {
         'method': 'method_to_call', # Required Method called when the user hits the yes button
         'record_id': self.id, # Required
         'message':'Replace with your custom message' # Optional The default is an empty string
+        'args':{'arg1':value1,'arg2':value2,} # Optional dictionary holding the methods arguments
     }
 }
 ```

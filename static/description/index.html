@@ -13,7 +13,8 @@
 
         <p>
         <h4>Example</h4>
-        <pre>
+        <code>
+            <pre>
             return {
                 'type': 'ir.actions.act_window',
                 'name': 'The name of the action',
@@ -26,9 +27,10 @@
                     'method': 'method_to_call', <i>Required</i> # Method called when the user hits the yes button
                     'record_id': self.id, <i>Required</i>
                     'message':'Replace with your custom message' <i>Optional</i> # The default is an empty string
+                    'args':{'arg1':value1,'arg2':value2,} # Optional dictionary holding the methods arguments
                     }
-            }
-        </pre>
+            }</pre>
+        </code>
         </p>
     </li>
     <li>

@@ -8,9 +8,14 @@
                     <group>
                         <field name="message" readonly="1" nolabel="1" class="text-center" style="font-size:1.2em"/>
                     </group>
-                    <footer>
-                        <button name="execute" type="object" string="Yes" class="oe_highlight"/>
-                        <button special="cancel" type="object" string="No"/>
+                    <footer style="text-align:right">
+                        <button name="execute" type="object" string="Yes" class="oe_highlight"
+                                style="width: 85px;
+                                padding: 5px;"/>
+                        <button special="cancel" type="object" string="No"
+                                style="width: 85px;
+                                padding: 5px;
+                                margin-left: 15px;"/>
                     </footer>
                 </form>
             </field>
